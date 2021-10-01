@@ -95,6 +95,13 @@ table{
 
 }
 
+tr:nth-child(even) {
+  background: #D1D1D1;
+}
+
+tr:nth-child(odd){
+  background: transparent;
+}
 
 thead tr:first-child th:first-child{
   border-radius: 50px 0 0 0;
